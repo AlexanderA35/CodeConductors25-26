@@ -69,8 +69,7 @@ public class Dcode extends LinearOpMode {
                 }
                 if (gamepad1.left_bumper) {
                     mid.setPower(1);
-                }
-                if (gamepad1.right_bumper) {
+                } else if (gamepad1.right_bumper) {
                     mid.setPower(-1);
                 } else {
                     mid.setPower(0);
