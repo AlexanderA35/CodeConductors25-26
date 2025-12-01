@@ -21,11 +21,11 @@ public class Dcode extends LinearOpMode {
      * Comment Blocks show where to place Initialization code (runs once, after touching the
      * DS INIT button, and before touching the DS Start arrow), Run code (runs once, after
      * touching Start), and Loop code (runs repeatedly while the OpMode is active, namely not
-     * Stopped). test(hehehaw)
+     * Stopped). test(3)
      */
     @Override
     public void runOpMode() {
-        double shspeed;
+        double shspeed = 0;
 
         shrm = hardwareMap.get(DcMotor.class, "shrm");
         rs = hardwareMap.get(Servo.class, "rs");
@@ -45,6 +45,7 @@ public class Dcode extends LinearOpMode {
         waitForStart();
         if (opModeIsActive()) {
             // Put run blocks here.
+            
             while (opModeIsActive()) {
                 // Put loop blocks here.
                 if (gamepad1.y) {
