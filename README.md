@@ -5,4 +5,4 @@ After you do that go to TeamCode -> Java -> org.firstinspires.ftc.teamcode
 Then right click on org.firstinspires.ftc.teamcode -> add Java class 
 then you can copy and paste the code
 This is dirrectly coppied from blocks to java in onbot except:
-I added "double shspeed = 0;" in line 28 
+none
